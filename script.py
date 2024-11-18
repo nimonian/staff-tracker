@@ -20,7 +20,7 @@ def extract(file_path):
     logging.info(f"Attempting to read data from {file_path}")
     try:
         data = pd.read_csv(file_path)
-        logging.info(f"Successfully read data.")
+        logging.info(f"Successfully read the data.")
         return data
     except Exception as e:
         logging.error(f"Error reading file: {e}")
