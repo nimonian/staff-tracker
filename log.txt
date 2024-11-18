@@ -1,0 +1,2 @@
+2024-11-18 18:56:24,800 - INFO - Attempting to read data from input.csv
+2024-11-18 18:56:24,802 - INFO - Successfully read data.
