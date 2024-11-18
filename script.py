@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 
 # configure logging
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.WARN,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(),  # log to the console
